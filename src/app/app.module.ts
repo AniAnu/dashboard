@@ -12,11 +12,14 @@ import { ENV_PROVIDERS } from './environment';
 import { routing } from './app.routing';
 
 // App is our top level component
+
 import { App } from './app.component';
 import { AppState, InternalStateType } from './app.service';
 import { GlobalState } from './global.state';
 import { NgaModule } from './theme/nga.module';
 import { PagesModule } from './pages/pages.module';
+
+
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -33,6 +36,10 @@ export type StoreType = {
 /**
  * `AppModule` is the main entry point into Angular2's bootstraping process
  */
+
+
+
+
 @NgModule({
   bootstrap: [App],
   declarations: [
@@ -47,10 +54,13 @@ export type StoreType = {
     NgaModule.forRoot(),
     PagesModule,
     routing
+    
   ],
   providers: [ // expose our Services and Providers into Angular's dependency injection
     ENV_PROVIDERS,
-    APP_PROVIDERS
+    APP_PROVIDERS,
+    
+  
   ]
 })
 

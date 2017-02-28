@@ -48,6 +48,7 @@
     "normalize.css": "4.2.0",
     "reflect-metadata": "0.1.9",
     "rxjs": "5.0.2",
+    "selfbits-angular2-sdk": "^1.0.6",
     "tether": "1.4.0",
     "zone.js": "0.7.7"
   },

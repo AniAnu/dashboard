@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {FormGroup, AbstractControl, FormBuilder, Validators} from '@angular/forms';
 
+
 import 'style-loader!./login.scss';
 
 @Component({
@@ -29,6 +30,7 @@ export class Login {
     if (this.form.valid) {
       // your code goes here
       // console.log(values);
-    }
+       
   }
+}
 }
