@@ -15,19 +15,16 @@ export class ChartistJsService {
       }
     },
     simpleLineData: {
-      labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+      labels: ['Jeunesse', 'Femmes', 'Les immigrants', 'Autochtones', 'Total'],
       series: [
-        [20, 20, 12, 45, 50],
-        [10, 45, 30, 14, 12],
-        [34, 12, 12, 40, 50],
-        [10, 43, 25, 22, 16],
-        [3, 6, 30, 33, 43]
+        [0, 10, 0, 0, 0],
+      
       ]
     },
     areaLineData: {
-      labels: [1, 2, 3, 4, 5, 6, 7, 8],
+      labels: ['Jeunesse', 'Femmes', 'Les immigrants', 'Autochtones', 'Total'],
       series: [
-        [5, 9, 7, 8, 5, 3, 5, 4]
+        [689, 11, 0, 0, 2],
       ]
     },
     areaLineOptions: {
@@ -37,12 +34,10 @@ export class ChartistJsService {
       showArea: true
     },
     biLineData: {
-      labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+      labels: ['Youth', 'Women', 'Immigrants', 'Aboriginals', 'Total'],
       series: [
-        [1, 2, 3, 1, -2, 0, 1],
-        [-2, -1, -2, -1, -2.5, -1, -2],
-        [0, 0, 0, 1, 2, 2.5, 2],
-        [2.5, 2, 1, 0.5, 1, 0.5, -1]
+        [689, 11, 0, 0, 2]
+        
       ]
     },
 
@@ -59,7 +54,7 @@ export class ChartistJsService {
       }
     },
     simpleBarData: {
-      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+      labels: ['Youth', 'Women', 'Immigrants', 'Aboriginals', 'Total'],
       series: [
         [15, 24, 43, 27, 5, 10, 23, 44, 68, 50, 26, 8],
         [13, 22, 49, 22, 4, 6, 24, 46, 57, 48, 22, 4]
@@ -70,7 +65,7 @@ export class ChartistJsService {
       height: '300px'
     },
     multiBarData: {
-      labels: ['Quarter 1', 'Quarter 2', 'Quarter 3', 'Quarter 4'],
+      labels: ['Communauté', 'Municipal', 'Gouvernement provincial', 'Privé'],
       series: [
         [5, 4, 3, 7],
         [3, 2, 9, 5],
@@ -113,11 +108,10 @@ export class ChartistJsService {
       }]
     ],
     stackedBarData: {
-      labels: ['Quarter 1', 'Quarter 2', 'Quarter 3', 'Quarter 4'],
+      labels: ['Infrastructure', 'santé et bien-être', 'admin publique', 'Federal government', 'Private'],
       series: [
-        [800000, 1200000, 1400000, 1300000],
-        [200000, 400000, 500000, 300000],
-        [100000, 200000, 400000, 600000]
+        [82850, 25000, 2730940, 2236298, 2790950]
+       
       ]
     },
     stackedBarOptions: {
@@ -142,7 +136,7 @@ export class ChartistJsService {
       }
     },
     labelsPieData: {
-      labels: ['Bananas', 'Apples', 'Grapes'],
+      labels: ['Infrastructure', 'Apples', 'Grapes'],
       series: [20, 15, 40]
     },
     labelsPieOptions: {
@@ -155,7 +149,7 @@ export class ChartistJsService {
       }
     },
     simpleDonutData: {
-      labels: ['Bananas', 'Apples', 'Grapes'],
+      labels: ['Infrastructure', 'santé et bien-être', 'Dépenses réelles'],
       series: [20, 15, 40]
     },
     simpleDonutOptions: {

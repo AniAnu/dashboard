@@ -22,6 +22,7 @@ export class UsersMapService {
         zoomLatitude: 52,
         areas: [
           { title: 'Austria', id: 'AT', color: layoutColors.primary, customData: '1 244', groupId: '1'},
+           { title: 'New Brunswick', id: 'NB', color: layoutColors.primary, customData: '1 244', groupId: '1'},
           { title: 'Ireland', id: 'IE', color: layoutColors.primary, customData: '1 342', groupId: '1'},
           { title: 'Denmark', id: 'DK', color: layoutColors.primary, customData: '1 973', groupId: '1'},
           { title: 'Finland', id: 'FI', color: layoutColors.primary, customData: '1 573', groupId: '1'},

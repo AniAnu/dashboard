@@ -18,7 +18,7 @@ export const PAGES_MENU = [
         path: 'dashboard',
         data: {
           menu: {
-            title: 'Dashboard',
+            title: 'Tableau de bord',
             icon: 'ion-android-home',
             selected: false,
             expanded: false,
@@ -74,7 +74,7 @@ export const PAGES_MENU = [
         path: 'charts',
         data: {
           menu: {
-            title: 'Charts',
+            title: 'Rapports',
             icon: 'ion-stats-bars',
             selected: false,
             expanded: false,
@@ -86,7 +86,7 @@ export const PAGES_MENU = [
             path: 'chartist-js',
             data: {
               menu: {
-                title: 'Chartist.Js',
+                title: 'Tableau des rapports',
               }
             }
           }
@@ -329,8 +329,8 @@ export const PAGES_MENU = [
         path: '',
         data: {
           menu: {
-            title: 'External Link',
-            url: 'http://akveo.com',
+            title: 'Garago',
+            url: 'http://www.garago.ca',
             icon: 'ion-android-exit',
             order: 800,
             target: '_blank'
